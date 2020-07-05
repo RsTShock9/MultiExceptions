@@ -1,0 +1,22 @@
+{
+  "name": "vitaliyklubkou/multiexceptions",
+  "description": "Implementation of the MultiExceptions pattern",
+  "keywords": ["Exception", "MultiExceptions"],
+  "homepage": "https://github.com/RsTShock9/MultiExceptions",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Vitaliy",
+      "email": "vitaliyhappy94@gmail.com"
+    }
+  ],
+  "require": {
+    "php":">=7.4"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "VitaliyKlubkou\\MultiExceptions\\": "src/"
+    }
+  }
+}
